@@ -32,3 +32,37 @@
     transform: rotate(360deg);
   }
 }
+
+.btn-danger{
+  border-radius: 10%;
+  margin-left: 2%;
+}
+#empty{
+  border: solid #282c34;
+}
+ol>li{
+  margin-left: 20%;
+  font-weight: bold;
+  font-size: 30px;
+}
+#list{
+  width: 50%;
+  margin-left: 30%;
+  margin-top: 2%;
+  background-color: beige;
+}
+span{
+  position: relative;
+  color: rgb(255, 255, 255);
+  text-align: right;
+  right: -330px;
+  border-radius: 30px;
+ font-size: 50px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 70px;
+  background-color: rgb(255, 80, 80);
+}
+#span1{
+  cursor: pointer;
+}
+

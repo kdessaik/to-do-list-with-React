@@ -20,11 +20,9 @@ export const ToDoList = () => {
       const parra=document.getElementById('parra')
       storeValue.push(...toDo)
       delet.value=''
-     
-      console.log(Data)
-      
+     }
 
-    }
+     
      return (
     <div>
     <h1>ToDoList</h1>

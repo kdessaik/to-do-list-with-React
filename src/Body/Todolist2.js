@@ -1,4 +1,4 @@
-const Display=()=>{
+const Display1=()=>{
     var myNodelist = document.getElementsByTagName("LI");
 var i;
 for (i = 0; i < myNodelist.length; i++) {
@@ -56,11 +56,11 @@ function newElement() {
     return(
 
         <div id="body">
-    <h1 class="text-center mb-3"> <u> Write a Word and Add Your</u></h1>
-    <div id="myDIV" class="header">
-        <h2 style="margin:5px">My To Do List</h2>
+    <h1 className="text-center mb-3"> <u> Write a Word and Add Your</u></h1>
+    <div id="myDIV" className="header">
+        <h2>My To Do List</h2>
         <input type="text" id="myInput" placeholder="Title..."> </input>
-        <span onclick="newElement()" class="addBtn"> Add</span>
+        <span onClick={newElement()} className="addBtn"> Add</span>
       </div>
       <ul id="myUL">
         
@@ -73,3 +73,4 @@ function newElement() {
 
     )
 }
+export default Display1
