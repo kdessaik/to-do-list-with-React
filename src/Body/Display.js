@@ -1,15 +1,22 @@
 var Display=({list})=>{ 
     
-    const close=document.getElementById('span1')
+    var close=document.getElementById('span1')
+    var delet=document.getElementById('list')
 
-    close.addEventListener('click',)
+    function Close(){ 
+       
+         
+         delet.style.Display='none'
+        
+        }
+        
     return (
     <>
     <ol>
 {list.map(function(itemObj) {
           return( <li id="list">
         {itemObj}
-        <span id="span1" onClick={}>x</span>
+        <span id="span1" >x</span>
           </li>)
  })}
         </ol>
